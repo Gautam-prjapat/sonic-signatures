@@ -1,0 +1,14 @@
+# Ignore the database folder (this is the big one!)
+song_database/
+
+# Ignore Python's temporary cache folders
+__pycache__/
+*.pyc
+
+# Ignore local environment files and logs
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Ignore any large pickle files if you create them for testing
+*.pkl
